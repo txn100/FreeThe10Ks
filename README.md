@@ -15,6 +15,16 @@ Most 10‑Ks are huge documents where the core financial statements are buried u
 
 ---
 
+## Pictures
+
+### Demo — NVDA 10-Ks
+
+| | |
+|---|---|
+| ![NVDA — Viewer (Top)](pics/nvidia%20top.png) | ![NVDA — Balance Sheet](pics/nvidia%20bs.png) |
+| ![NVDA — Income Statement](pics/nvidia%20IncomeS.png) | ![Top](pics/top.png) |
+
+
 ## Features
 
 ### Extractor
