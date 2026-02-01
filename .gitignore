@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# output data (big)
+statements/
+sec_statements_out/
+ui_statements/
