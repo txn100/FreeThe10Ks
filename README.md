@@ -50,7 +50,7 @@ Recommended:
 ├── edgar_extract.py
 ├── edgar_viewer.py
 ├── requirements.txt
-└── statements/                    # generated data (optional to commit)
+└── statements/                    
     ├── ui_statements/
     │   └── 0001511737/
     │       ├── manifest.json
@@ -247,25 +247,7 @@ A filing may use unusual naming or different report structure. Look at `errors` 
 - File writes use safe path resolution to avoid writing outside the chosen output directory.
 - The viewer is intentionally server-side only: it serves HTML pages and reads JSON locally.
 
----
 
-## Suggested `.gitignore`
-
-If you don’t want to commit generated statement datasets:
-
-```gitignore
-__pycache__/
-*.pyc
-.venv/
-venv/
-.env
-
-statements/
-sec_statements_out/
-```
-
----
 
 ## License
-
-Add a `LICENSE` file if you want a formal open-source license (MIT is common for portfolio projects).
+ None
